@@ -1,0 +1,55 @@
+body {
+  width:100%;
+  display:flex;
+
+}
+
+moviesList {
+  display:flex;
+  flex-direction:column;
+}
+
+moviesList li{
+  width:20%;
+  display:flex;
+  flex-direction:row;
+  padding:10px;
+  margin:10px;
+  align-self:center;
+  justify-content:center;
+}
+
+li {
+  width:70%;
+  text-align:center;
+  list-style:none;
+  justify-content:center;
+  padding:20px;
+}
+
+li img {
+  height:20%;
+  width:20%;
+}
+
+#btnSend {
+  height:10%;
+  width:20%;
+  
+
+}
+
+#titleTextBox {
+  height:10%;
+  width:10%;
+}
+
+#bodyTextBox {
+  height:10%;
+  width:10%;
+}
+
+#userIdTextBox {
+  height:10%;
+  width:10%;
+}
